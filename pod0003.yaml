@@ -1,0 +1,10 @@
+apiVersion: v1  
+kind: Pod  
+metadata:  
+  name: httpd-with-error  
+spec:  
+  containers:  
+  - name: web  
+    image: httpd2.4  
+    ports:  
+    - containerPort: 80 
