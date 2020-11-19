@@ -5,6 +5,6 @@ metadata:
 spec:  
   containers:  
   - name: web  
-    image: httpd2.4  
+    image: mirror.gcr.io/library/httpd2.4
     ports:  
     - containerPort: 80 
